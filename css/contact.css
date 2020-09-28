@@ -12,6 +12,9 @@ body {
   }
   .row{
     height:60vh;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
   }
   .column {
     float: left;
@@ -77,3 +80,8 @@ body {
       display: block;
     }
   }
+.photo{
+  border-radius:10px;
+  height:60vh;
+  width:50vh;
+}
